@@ -8,7 +8,9 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/materialize.css" | relative_url }}" />
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/main.css" | relative_url }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ "/assets/img/favicon.png" | relative_url }}" />
+
     {% if page.style %}
     {% assign href = '/assets/css/' | append: page.style %}
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ href | relative_url }}">
