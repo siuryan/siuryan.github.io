@@ -17,7 +17,7 @@ body {
     background-color: #e0f7fa;
 }
 
-#header-nav {
+#header-nav, .page-footer {
     background-color: #416788;
 }
 
@@ -27,4 +27,8 @@ body {
 
 #parallax-section {
     background-color: #ffee58;
+}
+
+.parallax-container {
+    height: 200px;
 }
