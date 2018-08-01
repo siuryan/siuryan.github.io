@@ -1,0 +1,30 @@
+#description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#description > :first-child {
+    float: left;
+}
+
+#description > img {
+    height: 5ex;
+    margin: 1em;
+}
+
+body {
+    background-color: #e0f7fa;
+}
+
+#header-nav {
+    background-color: #416788;
+}
+
+#site-title {
+    color: #416788;
+}
+
+#parallax-section {
+    background-color: #ffee58;
+}
