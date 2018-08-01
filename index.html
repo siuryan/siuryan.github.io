@@ -19,34 +19,37 @@ style: home.css
   </div>
 </div>
 
-<!-- TODO add logos of things I know -->
-
 <div class="row"></div>
+<div class="row"></div>
+
+<div class="icon-row row center">
+  <img src="{{ "/assets/img/icons/html.png" | relative_url }}" alt="html5" class="responsive-img">
+  <img src="{{ "/assets/img/icons/css.png" | relative_url }}" alt="css3" class="responsive-img">
+  <img src="{{ "/assets/img/icons/js.png" | relative_url }}" alt="js" class="responsive-img">
+  <img src="{{ "/assets/img/icons/jekyll.png" | relative_url }}" alt="jekyll" class="responsive-img">
+  <img src="{{ "/assets/img/icons/python.png" | relative_url }}" alt="python" class="responsive-img">
+  <img src="{{ "/assets/img/icons/java.png" | relative_url }}" alt="java" class="responsive-img">
+  <img src="{{ "/assets/img/icons/sql.png" | relative_url }}" alt="sql" class="responsive-img">
+  <img src="{{ "/assets/img/icons/git.png" | relative_url }}" alt="git" class="responsive-img">
+  <img src="{{ "/assets/img/icons/ubuntu.png" | relative_url }}" alt="ubuntu" class="responsive-img">
+  <img src="{{ "/assets/img/icons/android.png" | relative_url }}" alt="android" class="responsive-img">
+</div>
+
 <div class="row"></div>
 
 <div class="parallax-container">
   <div class="parallax"><img src="{{ "/assets/img/code.jpeg" | relative_url }}"></div>
 </div>
-<div id="parallax-section" class="section yellow darken-1">
+<div id="parallax-section" class="section">
   <div class="row container">
     <div class="col s12">
-      <h5 class="center">Highlighted Work</h5>
+      <h4 class="center">Highlighted Work</h4>
       <div class="row">
         {% for post in site.posts %}
         <div class="col s12 m6 l4">
           {% include post.html %}
         </div>
 
-        <!--<li class="collection-item avatar">
-          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post">{{ post.date | date: date_format }}</div>
-          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
-          <p>
-            {{ post.content | truncatewords: 10 }}
-          </p>
-          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-        </li>
-        -->
         {% endfor %}
       </div>
     </div>
