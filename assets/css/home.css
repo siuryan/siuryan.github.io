@@ -17,7 +17,7 @@ body {
     background-color: #e0f7fa;
 }
 
-#header-nav, .page-footer {
+#header-nav, .page-footer, .btn-large {
     background-color: #416788;
 }
 
@@ -54,4 +54,8 @@ main a:hover {
 
 .icon-row > img {
     padding: 0px 10px;
+}
+
+#btn-row a {
+    margin: 1em;
 }

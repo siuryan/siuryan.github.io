@@ -4,5 +4,8 @@ description: Software Developer @ U of
 
 github: siuryan
 
+collections:
+  - works
+
 sass:
     style: compressed
