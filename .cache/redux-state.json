@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "e4cd8efd1a67890798dbd2d355a2ae92",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -281,7 +290,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/icon.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -354,7 +363,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0151627ebee106169f813b7069bc96f7",
+        "contentDigest": "a033c0fc321374153471779b7d4e22d5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +532,7 @@
       "resolve": "/home/ryan/dev/siuryan.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0adfdda8c30da569bac6f780f1768b0e",
+      "version": "7bc1ae82f9a9690638d2fc04e1fd20f8",
       "pluginOptions": {
         "plugins": []
       },
@@ -613,7 +622,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2eae967742d5d530c0eb3467ef4017c9",
+        "contentDigest": "e951e2074a2e478e6e33ad74568b0e4a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -715,39 +724,21 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Starter - Dimension V2",
-        "author": "Hunter Chang",
-        "description": "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+        "title": "Ryan Siu",
+        "author": "Ryan Siu",
+        "description": "Ryan Siu's Portfolio"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-26T19:49:40.868Z",
+      "buildTime": "2018-12-26T20:08:53.575Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2ec4a7fe7729bdb30d4c9d3252bcbe27",
+        "contentDigest": "a3dacfa15ddf32a5a0ad9a1477ad7720",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "17a2d52b0bb1a01686804357efad8c4d",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -791,26 +782,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/home/ryan/dev/siuryan.github.io/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4230bbeff7ae72a165c2a2c1b548a3fa",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -834,7 +805,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3057139251b6bef7cc741a9a2e7cdfed"
+    "PLUGINS_HASH": "1c4f35f9137a3f334ea5b64cb522bb6d"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -854,9 +825,9 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js"
     },
     "/home/ryan/dev/siuryan.github.io/src/pages/404.js": {
       "query": "",
@@ -865,10 +836,6 @@
     "/home/ryan/dev/siuryan.github.io/src/pages/index.js": {
       "query": "",
       "componentPath": "/home/ryan/dev/siuryan.github.io/src/pages/index.js"
-    },
-    "/home/ryan/dev/siuryan.github.io/src/pages/page-2.js": {
-      "query": "",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/src/pages/page-2.js"
     }
   },
   "staticQueryComponents": {
