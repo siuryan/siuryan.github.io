@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e4cd8efd1a67890798dbd2d355a2ae92",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -607,6 +598,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
             "name": "prettier",
             "version": "^1.14.2"
           }
@@ -724,17 +719,35 @@
         "author": "Hunter Chang",
         "description": "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-26T19:43:42.586Z",
+      "buildTime": "2018-12-26T19:49:40.868Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f837b988ec98406691b8c68f21d36c7c",
+        "contentDigest": "2ec4a7fe7729bdb30d4c9d3252bcbe27",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "17a2d52b0bb1a01686804357efad8c4d",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -821,7 +834,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8a1b6c50ce466348f9ba2356a055a052"
+    "PLUGINS_HASH": "3057139251b6bef7cc741a9a2e7cdfed"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -837,12 +850,13 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 2994927498,
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js": {
+    "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/home/ryan/dev/siuryan.github.io/.cache/dev-404-page.js"
+      "componentPath": "/home/ryan/dev/siuryan.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
     },
     "/home/ryan/dev/siuryan.github.io/src/pages/404.js": {
       "query": "",
