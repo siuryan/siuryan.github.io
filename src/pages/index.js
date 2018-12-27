@@ -11,8 +11,7 @@ const Descriptions = [
   "Problem Solver",
   "Team Worker",
   "Maker",
-  "Competitor",
-  ""
+  "Competitor"
 ];
 
 class IndexPage extends React.Component {

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Resume from '../assets/resume.pdf'
 
@@ -14,10 +15,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-                <li><a href={Resume}>Resume</a></li>
+                <li><OutboundLink href="javascript:work;" onClick={() => {props.onOpenArticle('work')}}>Work</OutboundLink></li>
+                <li><OutboundLink href="javascript:about;" onClick={() => {props.onOpenArticle('about')}}>About</OutboundLink></li>
+                <li><OutboundLink href="javascript:contact;" onClick={() => {props.onOpenArticle('contact')}}>Contact</OutboundLink></li>
+                <li><OutboundLink href={Resume}>Resume</OutboundLink></li>
             </ul>
         </nav>
     </header>
