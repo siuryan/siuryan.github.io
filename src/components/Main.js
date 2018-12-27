@@ -44,10 +44,6 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
-          <ul className="icons">
-            <li><a href="https://medium.com/@ryansiu" className="icon fa-medium"><span className="label">Medium</span></a></li>
-            <li><a href="https://github.com/siuryan" className="icon fa-github"><span className="label">GitHub</span></a></li>
-          </ul>
           {close}
         </article>
 

@@ -7,10 +7,12 @@ import Footer from '../components/Footer'
 
 const Descriptions = [
   "Software Developer",
-  "Student @ U-M",
-  "Critical Thinker",
+  "Student @ U-Mich",
+  "Problem Solver",
   "Team Worker",
-  "Maker"
+  "Maker",
+  "Competitor",
+  ""
 ];
 
 class IndexPage extends React.Component {
