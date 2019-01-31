@@ -9,7 +9,6 @@ const Descriptions = [
   "Software Developer",
   "Student @ U-Mich",
   "Problem Solver",
-  "Team Worker",
   "Maker",
   "Competitor"
 ];
