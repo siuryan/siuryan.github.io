@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 const Descriptions = [
   "Software Developer",
-  "Student @ U-Mich",
+  "Student @ UMich",
   "Problem Solver",
   "Maker",
   "Competitor"
