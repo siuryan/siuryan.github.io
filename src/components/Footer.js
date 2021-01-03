@@ -9,7 +9,7 @@ const Footer = (props) => (
             <li><OutboundLink href="mailto:rsiu05@gmail.com" className="icon fa-envelope"><span className="label">Email</span></OutboundLink></li>
             <li><OutboundLink href="https://github.com/siuryan" className="icon fa-github"><span className="label">GitHub</span></OutboundLink></li>
         </ul>
-        <p className="copyright">&copy; 2019 Ryan Siu</p>
+        <p className="copyright">&copy; 2021 Ryan Siu</p>
     </footer>
 )
 
